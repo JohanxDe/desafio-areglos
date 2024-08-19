@@ -1,0 +1,55 @@
+body{
+    background-image: url("../img/fondo.png");
+    background-color: black;
+}
+
+
+/* .propiedad-card {
+    border: 2px solid #ccc; /* Borde
+    padding: 10px; /* Espacio interior 
+    margin: 10px 0; /* Espacio entre cada propiedad 
+    border-radius: 5px; /* Bordes redondeados
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Sombra
+    background-color: white;
+} */
+
+/*se actualiza CSS para el diseño de las cartas al que esta arriba para definir maximo de cartas*/
+
+.propiedad-card {
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 300px; /* Ancho máximo para la carta */
+    max-height: 400px; /* Altura máxima para la carta */
+    display: inline-block; /* Permite que las cartas estén una al lado de la otra */
+    vertical-align: top; /* Alinea las cartas en la parte superior */
+    background-color: white; /*fondo de la carta blanca  */
+}
+
+
+/*funcion para ocultar los parrafos si es que hay mucho texto
+/* .propiedad-card p {
+    text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es demasiado largo 
+    overflow: hidden; /* Oculta el texto desbordante 
+    white-space: nowrap; /* Impide que el texto se desborde en una nueva línea 
+} */
+
+.propiedad-card img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+}
+
+#propiedades-alquiler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#propiedades-venta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
